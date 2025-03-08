@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    border: 0px;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: cornsilk;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(160, 192, 160);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.link{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 80px;
+}
+.nav .link a {
+    text-decoration: none; /* Remove underline initially */
+    color: black; 
+  }
+.nav .link a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.WebPG-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Home-content{
+    height: 400px;
+    width: 600px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.MyPic{
+    margin-top: 100px;
+}
+.About{
+    margin-left: 300px;
+    height: 600px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.myskill{
+    margin-top: -30px;;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.myskill .tech img{
+    height: 200px;
+    width: 200px;
+}
+.myskill .tech .techno {
+   transition: transform 0.3s;
+}
+.myskill .tech .techno:hover{
+    transform: translateY(-10px);
+}
+.Contact{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-left{
+    margin-left: 250px;;
+    height: 300px;
+    width: 600px; 
+    display: inline-block; 
+}
+.contact-left .linkedin-icon{
+    height: 30px;
+    width: 30px;
+}
+.contact-left .linkedin{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black; 
+}
+.contact-left .phone-icon{
+    height: 30px;
+    width: 30px;
+}
+.contact-left .Gmail-icon{
+    height: 30px;
+    width: 30px;
+}
+.contact-left .G-mail{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black; 
+}
+.contact-left .G-mail img{
+    transition: transform 0.3s;
+}
+.contact-left .G-mail img:hover{
+    transform: translateY(-5px);
+}
+.contact-left .linkedin img{
+    transition: transform 0.3s;
+}
+.contact-left .linkedin img:hover{
+    transform: translateY(-5px);
+}
+.contact-left .Phno img{
+    transition: transform 0.3s;
+}
+.contact-left .Phno img:hover{
+    transform: translateY(-5px);
+}
+.contact-right{
+    height: 300px;
+    width: 400px; 
+}
+.contact-right .btn{
+    margin-right: 50px;
+    margin-top: 150px;
+    width: 130px;
+    height: 50px;
+    background-color:rgb(160, 192, 160) ;
+    border-radius: 5%;
+    border:rgb(158, 186, 158);
+}
